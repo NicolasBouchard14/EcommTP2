@@ -1,0 +1,423 @@
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (6.6ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (1.8ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateFournisseurs (20180224180435)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "fournisseurs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "nom" varchar, "adresse" varchar, "tel" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20180224180435"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateProduits (20180224180532)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE TABLE "produits" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "nom" varchar, "quantite" integer, "description" varchar, "prix" float, "fournisseur_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, CONSTRAINT "fk_rails_1dbb91110a"
+FOREIGN KEY ("fournisseur_id")
+  REFERENCES "fournisseurs" ("id")
+)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE  INDEX "index_produits_on_fournisseur_id" ON "produits" ("fournisseur_id")[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20180224180532"]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2018-02-24 18:38:41.837603"], ["updated_at", "2018-02-24 18:38:41.837603"]]
+  [1m[35m (4.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_produits_on_fournisseur_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_produits_on_fournisseur_id' AND type='index'
+[0m
+Started GET "/fournisseurs" for 192.168.12.1 at 2018-02-24 15:41:19 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by FournisseursController#index as */*
+  [1m[36mFournisseur Load (0.3ms)[0m  [1m[34mSELECT "fournisseurs".* FROM "fournisseurs"[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::JsonApi (0.67ms)
+Completed 200 OK in 10ms (Views: 6.0ms | ActiveRecord: 0.5ms)
+
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.5ms)[0m  [1m[32mINSERT INTO "fournisseurs" ("nom", "adresse", "tel", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["nom", "Gusikowski Inc"], ["adresse", "7617 Borer Pines, Meredithport, Panama"], ["tel", "1-390-042-4108"], ["created_at", "2018-02-24 21:25:06.371313"], ["updated_at", "2018-02-24 21:25:06.371313"]]
+  [1m[35m (2.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "fournisseurs" ("nom", "adresse", "tel", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["nom", "Klein and Sons"], ["adresse", "756 Connor Neck, East Aryannaborough, Uganda"], ["tel", "476-054-4053 x2743"], ["created_at", "2018-02-24 21:25:06.379618"], ["updated_at", "2018-02-24 21:25:06.379618"]]
+  [1m[35m (2.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "fournisseurs" ("nom", "adresse", "tel", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["nom", "Boyle and Sons"], ["adresse", "411 Krajcik Gateway, Schneidermouth, French Guiana"], ["tel", "238.236.3738 x4773"], ["created_at", "2018-02-24 21:25:06.385625"], ["updated_at", "2018-02-24 21:25:06.385625"]]
+  [1m[35m (2.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "fournisseurs" ("nom", "adresse", "tel", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["nom", "Miller, Hilpert and Nitzsche"], ["adresse", "90862 Morissette Mews, East Carmelville, Saint Vincent and the Grenadines"], ["tel", "209-303-5876"], ["created_at", "2018-02-24 21:25:06.389349"], ["updated_at", "2018-02-24 21:25:06.389349"]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "fournisseurs" ("nom", "adresse", "tel", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["nom", "Kub-Powlowski"], ["adresse", "659 Aaron Vista, Tressiehaven, Kiribati"], ["tel", "1-132-685-8022 x088"], ["created_at", "2018-02-24 21:25:06.392488"], ["updated_at", "2018-02-24 21:25:06.392488"]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Started GET "/fournisseurs" for 192.168.142.1 at 2018-02-24 16:26:51 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by FournisseursController#index as */*
+  [1m[36mFournisseur Load (0.2ms)[0m  [1m[34mSELECT "fournisseurs".* FROM "fournisseurs"[0m
+No serializer found for resource: #<Fournisseur id: 1, nom: "Gusikowski Inc", adresse: "7617 Borer Pines, Meredithport, Panama", tel: "1-390-042-4108", created_at: "2018-02-24 21:25:06", updated_at: "2018-02-24 21:25:06">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Fournisseur::ActiveRecord_Relation (0.78ms)
+Completed 200 OK in 15ms (Views: 11.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/produits" for 192.168.142.1 at 2018-02-24 16:28:01 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/produits"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/fournisseurs/1/produits" for 192.168.142.1 at 2018-02-24 16:28:39 -0500
+Processing by ProduitsController#index as */*
+  Parameters: {"fournisseur_id"=>"1"}
+  [1m[36mFournisseur Load (0.4ms)[0m  [1m[34mSELECT  "fournisseurs".* FROM "fournisseurs" WHERE "fournisseurs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mProduit Load (0.1ms)[0m  [1m[34mSELECT "produits".* FROM "produits" WHERE "produits"."fournisseur_id" = ?[0m  [["fournisseur_id", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::JsonApi (0.89ms)
+Completed 200 OK in 27ms (Views: 10.1ms | ActiveRecord: 1.3ms)
+
+
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (7.2ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (6.9ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateFournisseurs (20180224180435)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "fournisseurs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "nom" varchar, "adresse" varchar, "tel" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20180224180435"]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateProduits (20180224180532)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "produits" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "nom" varchar, "quantite" integer, "description" varchar, "prix" float, "fournisseur_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, CONSTRAINT "fk_rails_1dbb91110a"
+FOREIGN KEY ("fournisseur_id")
+  REFERENCES "fournisseurs" ("id")
+)[0m
+  [1m[35m (0.7ms)[0m  [1m[35mCREATE  INDEX "index_produits_on_fournisseur_id" ON "produits" ("fournisseur_id")[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20180224180532"]]
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.6ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2018-02-24 21:31:06.001768"], ["updated_at", "2018-02-24 21:31:06.001768"]]
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_produits_on_fournisseur_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_produits_on_fournisseur_id' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.4ms)[0m  [1m[32mINSERT INTO "fournisseurs" ("nom", "adresse", "tel", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["nom", "Hagenes, Ankunding and Goodwin"], ["adresse", "2153 Romaguera Track, East Cassidy, Wallis and Futuna"], ["tel", "1-835-165-3290 x4367"], ["created_at", "2018-02-24 21:31:15.666305"], ["updated_at", "2018-02-24 21:31:15.666305"]]
+  [1m[35m (6.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "fournisseurs" ("nom", "adresse", "tel", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["nom", "Gleichner-Ondricka"], ["adresse", "64810 Flossie Cove, Rosenbaumside, Falkland Islands (Malvinas)"], ["tel", "313.159.5009"], ["created_at", "2018-02-24 21:31:15.675422"], ["updated_at", "2018-02-24 21:31:15.675422"]]
+  [1m[35m (2.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "fournisseurs" ("nom", "adresse", "tel", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["nom", "Herman-Grimes"], ["adresse", "50939 Trace Ramp, Tremaynetown, Niger"], ["tel", "116.055.4548 x732"], ["created_at", "2018-02-24 21:31:15.683328"], ["updated_at", "2018-02-24 21:31:15.683328"]]
+  [1m[35m (2.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "fournisseurs" ("nom", "adresse", "tel", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["nom", "Watsica and Sons"], ["adresse", "263 Bergnaum Summit, New Jovannyborough, Marshall Islands"], ["tel", "195.898.7370 x331"], ["created_at", "2018-02-24 21:31:15.689847"], ["updated_at", "2018-02-24 21:31:15.689847"]]
+  [1m[35m (2.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "fournisseurs" ("nom", "adresse", "tel", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["nom", "Cronin-Upton"], ["adresse", "16750 Dare Greens, Sauerton, Cote d'Ivoire"], ["tel", "803.146.3423"], ["created_at", "2018-02-24 21:31:15.696566"], ["updated_at", "2018-02-24 21:31:15.696566"]]
+  [1m[35m (2.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFournisseur Load (0.1ms)[0m  [1m[34mSELECT  "fournisseurs".* FROM "fournisseurs" WHERE "fournisseurs"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFournisseur Load (0.1ms)[0m  [1m[34mSELECT  "fournisseurs".* FROM "fournisseurs" WHERE "fournisseurs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "produits" ("nom", "quantite", "description", "prix", "fournisseur_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["nom", "dolores"], ["quantite", 83], ["description", "Aut est iure accusantium esse amet adipisci."], ["prix", 10.132], ["fournisseur_id", 1], ["created_at", "2018-02-24 21:31:15.724554"], ["updated_at", "2018-02-24 21:31:15.724554"]]
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFournisseur Load (0.3ms)[0m  [1m[34mSELECT  "fournisseurs".* FROM "fournisseurs" WHERE "fournisseurs"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "produits" ("nom", "quantite", "description", "prix", "fournisseur_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["nom", "praesentium"], ["quantite", 56], ["description", "Provident consequuntur at sit accusamus."], ["prix", 12.373], ["fournisseur_id", 2], ["created_at", "2018-02-24 21:31:15.731326"], ["updated_at", "2018-02-24 21:31:15.731326"]]
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFournisseur Load (0.2ms)[0m  [1m[34mSELECT  "fournisseurs".* FROM "fournisseurs" WHERE "fournisseurs"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "produits" ("nom", "quantite", "description", "prix", "fournisseur_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["nom", "qui"], ["quantite", 66], ["description", "Amet est explicabo quia tempora in recusandae iste."], ["prix", 14.978], ["fournisseur_id", 3], ["created_at", "2018-02-24 21:31:15.739043"], ["updated_at", "2018-02-24 21:31:15.739043"]]
+  [1m[35m (2.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFournisseur Load (0.1ms)[0m  [1m[34mSELECT  "fournisseurs".* FROM "fournisseurs" WHERE "fournisseurs"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "produits" ("nom", "quantite", "description", "prix", "fournisseur_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["nom", "quia"], ["quantite", 29], ["description", "Quis necessitatibus voluptatem dolor porro aspernatur maiores nihil."], ["prix", 79.322], ["fournisseur_id", 4], ["created_at", "2018-02-24 21:31:15.745144"], ["updated_at", "2018-02-24 21:31:15.745144"]]
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/fournisseurs/1/produits" for 192.168.142.1 at 2018-02-24 16:31:35 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProduitsController#index as */*
+  Parameters: {"fournisseur_id"=>"1"}
+  [1m[36mFournisseur Load (0.1ms)[0m  [1m[34mSELECT  "fournisseurs".* FROM "fournisseurs" WHERE "fournisseurs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mProduit Load (0.1ms)[0m  [1m[34mSELECT "produits".* FROM "produits" WHERE "produits"."fournisseur_id" = ?[0m  [["fournisseur_id", 1]]
+No serializer found for resource: #<Produit id: 1, nom: "dolores", quantite: 83, description: "Aut est iure accusantium esse amet adipisci.", prix: 10.132, fournisseur_id: 1, created_at: "2018-02-24 21:31:15", updated_at: "2018-02-24 21:31:15">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Produit::ActiveRecord_Associations_CollectionProxy (0.27ms)
+Completed 200 OK in 30ms (Views: 13.7ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/fournisseurs/1/produits/1" for 192.168.142.1 at 2018-02-24 16:33:20 -0500
+Processing by ProduitsController#show as */*
+  Parameters: {"fournisseur_id"=>"1", "id"=>"1"}
+  [1m[36mFournisseur Load (0.2ms)[0m  [1m[34mSELECT  "fournisseurs".* FROM "fournisseurs" WHERE "fournisseurs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mProduit Load (0.2ms)[0m  [1m[34mSELECT  "produits".* FROM "produits" WHERE "produits"."fournisseur_id" = ? AND "produits"."id" = ? LIMIT ?[0m  [["fournisseur_id", 1], ["id", 1], ["LIMIT", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Produit (0.69ms)
+Completed 200 OK in 9ms (Views: 3.9ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/fournisseurs/1/produits" for 192.168.142.1 at 2018-02-24 16:35:34 -0500
+Processing by ProduitsController#create as */*
+  Parameters: {"nom"=>"godmichet", "quantite"=>69, "description"=>"Silencieux", "prix"=>122.12, "fournisseur_id"=>"1", "produit"=>{"nom"=>"godmichet", "quantite"=>69, "description"=>"Silencieux", "prix"=>122.12, "fournisseur_id"=>"1"}}
+  [1m[36mFournisseur Load (0.3ms)[0m  [1m[34mSELECT  "fournisseurs".* FROM "fournisseurs" WHERE "fournisseurs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameters: :fournisseur_id, :produit
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.9ms)[0m  [1m[32mINSERT INTO "produits" ("nom", "quantite", "description", "prix", "fournisseur_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["nom", "godmichet"], ["quantite", 69], ["description", "Silencieux"], ["prix", 122.12], ["fournisseur_id", 1], ["created_at", "2018-02-24 21:35:34.258015"], ["updated_at", "2018-02-24 21:35:34.258015"]]
+  [1m[35m (4.0ms)[0m  [1m[36mcommit transaction[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Fournisseur (0.29ms)
+Completed 201 Created in 16ms (Views: 1.4ms | ActiveRecord: 6.3ms)
+
+
+Started GET "/fournisseurs/1/produits" for 192.168.142.1 at 2018-02-24 16:36:30 -0500
+Processing by ProduitsController#index as */*
+  Parameters: {"fournisseur_id"=>"1"}
+  [1m[36mFournisseur Load (0.3ms)[0m  [1m[34mSELECT  "fournisseurs".* FROM "fournisseurs" WHERE "fournisseurs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mProduit Load (0.4ms)[0m  [1m[34mSELECT "produits".* FROM "produits" WHERE "produits"."fournisseur_id" = ?[0m  [["fournisseur_id", 1]]
+No serializer found for resource: #<Produit id: 1, nom: "dolores", quantite: 83, description: "Aut est iure accusantium esse amet adipisci.", prix: 10.132, fournisseur_id: 1, created_at: "2018-02-24 21:31:15", updated_at: "2018-02-24 21:31:15">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Produit::ActiveRecord_Associations_CollectionProxy (0.85ms)
+Completed 200 OK in 6ms (Views: 3.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/fournisseurs/" for 192.168.142.1 at 2018-02-24 16:37:14 -0500
+Processing by FournisseursController#index as */*
+  [1m[36mFournisseur Load (0.4ms)[0m  [1m[34mSELECT "fournisseurs".* FROM "fournisseurs"[0m
+No serializer found for resource: #<Fournisseur id: 1, nom: "Hagenes, Ankunding and Goodwin", adresse: "2153 Romaguera Track, East Cassidy, Wallis and Fut...", tel: "1-835-165-3290 x4367", created_at: "2018-02-24 21:31:15", updated_at: "2018-02-24 21:31:15">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Fournisseur::ActiveRecord_Relation (2.28ms)
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/fournisseurs/" for 192.168.142.1 at 2018-02-24 16:38:39 -0500
+Processing by FournisseursController#create as */*
+  Parameters: {"nom"=>"Generals Electric", "adresse"=>"666 Hell Street", "tel"=>"777-6666", "fournisseur"=>{"nom"=>"Generals Electric", "adresse"=>"666 Hell Street", "tel"=>"777-6666"}}
+Unpermitted parameter: :fournisseur
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "fournisseurs" ("nom", "adresse", "tel", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["nom", "Generals Electric"], ["adresse", "666 Hell Street"], ["tel", "777-6666"], ["created_at", "2018-02-24 21:38:39.598065"], ["updated_at", "2018-02-24 21:38:39.598065"]]
+  [1m[35m (3.2ms)[0m  [1m[36mcommit transaction[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Fournisseur (0.25ms)
+Completed 201 Created in 11ms (Views: 0.7ms | ActiveRecord: 3.8ms)
+
+
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to DeviseCreateUsers (20180312131949)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.6ms)[0m  [1m[35mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20180312131949"]]
+  [1m[35m (2.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_produits_on_fournisseur_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_produits_on_fournisseur_id' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+Started GET "/" for 127.0.0.1 at 2018-03-12 10:04:16 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/nicolas/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/nicolas/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/templates/rails/welcome/index.html.erb (2.0ms)
+Completed 200 OK in 8ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2018-03-12 10:04:16 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-03-12 10:05:28 -0400
+Processing by FournisseursController#index as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.18ms)
+Filter chain halted as :authenticate_request! rendered or redirected
+Completed 401 Unauthorized in 5ms (Views: 4.2ms)
+
+
+Started GET "/fournisseurs" for 192.168.142.1 at 2018-03-12 14:00:49 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by FournisseursController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.23ms)
+Filter chain halted as :authenticate_request! rendered or redirected
+Completed 401 Unauthorized in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/auth_user" for 192.168.142.1 at 2018-03-12 14:05:21 -0400
+  
+SyntaxError (/home/nicolas/RubymineProjects/BasicAPI/app/controllers/authentication_controller.rb:7: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+...son: {errors: [Invalid Username/Password]}, status: :unautho...
+...                       ^~~~~~~~
+/home/nicolas/RubymineProjects/BasicAPI/app/controllers/authentication_controller.rb:7: syntax error, unexpected ']', expecting keyword_end
+...rs: [Invalid Username/Password]}, status: :unauthorized
+...                              ^):
+  
+app/controllers/authentication_controller.rb:7: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+app/controllers/authentication_controller.rb:7: syntax error, unexpected ']', expecting keyword_end
+Started POST "/auth_user" for 192.168.142.1 at 2018-03-12 14:08:27 -0400
+Processing by AuthenticationController#authenticate_user as */*
+  Parameters: {"email"=>"test@test.test", "password"=>"[FILTERED]", "authentication"=>{"email"=>"test@test.test", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "test@test.test"], ["LIMIT", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.1ms)
+Completed 401 Unauthorized in 6ms (Views: 2.0ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/auth_user" for 192.168.142.1 at 2018-03-12 14:12:26 -0400
+Processing by AuthenticationController#authenticate_user as */*
+  Parameters: {"email"=>"test@test.test", "password"=>"[FILTERED]", "authentication"=>{"email"=>"test@test.test", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "test@test.test"], ["LIMIT", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 401 Unauthorized in 2ms (Views: 0.5ms | ActiveRecord: 0.2ms)
+
+
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "test@test.test"], ["LIMIT", 1]]
+  [1m[35mSQL (1.2ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "test@test.test"], ["encrypted_password", "$2a$11$I/590ffOtF7oPSPfEZPYpugAnQteUzESHlVU2G6d4MgPqO4uFtdk."], ["created_at", "2018-03-12 18:16:22.096798"], ["updated_at", "2018-03-12 18:16:22.096798"]]
+  [1m[35m (4.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+Started POST "/auth_user" for 192.168.142.1 at 2018-03-12 14:18:11 -0400
+Processing by AuthenticationController#authenticate_user as */*
+  Parameters: {"email"=>"test@test.test", "password"=>"[FILTERED]", "authentication"=>{"email"=>"test@test.test", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "test@test.test"], ["LIMIT", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.13ms)
+Completed 200 OK in 127ms (Views: 0.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/fournisseurs" for 192.168.142.1 at 2018-03-12 14:20:32 -0400
+Processing by FournisseursController#index as */*
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mFournisseur Load (0.2ms)[0m  [1m[34mSELECT "fournisseurs".* FROM "fournisseurs"[0m
+No serializer found for resource: #<Fournisseur id: 1, nom: "Hagenes, Ankunding and Goodwin", adresse: "2153 Romaguera Track, East Cassidy, Wallis and Fut...", tel: "1-835-165-3290 x4367", created_at: "2018-02-24 21:31:15", updated_at: "2018-02-24 21:31:15">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Fournisseur::ActiveRecord_Relation (0.93ms)
+Completed 200 OK in 26ms (Views: 10.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/fournisseurs" for 192.168.142.1 at 2018-03-12 14:20:36 -0400
+Processing by FournisseursController#index as */*
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mFournisseur Load (0.1ms)[0m  [1m[34mSELECT "fournisseurs".* FROM "fournisseurs"[0m
+No serializer found for resource: #<Fournisseur id: 1, nom: "Hagenes, Ankunding and Goodwin", adresse: "2153 Romaguera Track, East Cassidy, Wallis and Fut...", tel: "1-835-165-3290 x4367", created_at: "2018-02-24 21:31:15", updated_at: "2018-02-24 21:31:15">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Fournisseur::ActiveRecord_Relation (0.99ms)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/fournisseurs" for 192.168.142.1 at 2018-03-12 14:20:37 -0400
+Processing by FournisseursController#index as */*
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mFournisseur Load (0.1ms)[0m  [1m[34mSELECT "fournisseurs".* FROM "fournisseurs"[0m
+No serializer found for resource: #<Fournisseur id: 1, nom: "Hagenes, Ankunding and Goodwin", adresse: "2153 Romaguera Track, East Cassidy, Wallis and Fut...", tel: "1-835-165-3290 x4367", created_at: "2018-02-24 21:31:15", updated_at: "2018-02-24 21:31:15">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Fournisseur::ActiveRecord_Relation (0.79ms)
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/fournisseurs" for 192.168.142.1 at 2018-03-12 14:20:42 -0400
+Processing by FournisseursController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.07ms)
+Filter chain halted as :authenticate_request! rendered or redirected
+Completed 401 Unauthorized in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fournisseurs" for 192.168.142.1 at 2018-03-12 14:20:46 -0400
+Processing by FournisseursController#index as */*
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mFournisseur Load (0.1ms)[0m  [1m[34mSELECT "fournisseurs".* FROM "fournisseurs"[0m
+No serializer found for resource: #<Fournisseur id: 1, nom: "Hagenes, Ankunding and Goodwin", adresse: "2153 Romaguera Track, East Cassidy, Wallis and Fut...", tel: "1-835-165-3290 x4367", created_at: "2018-02-24 21:31:15", updated_at: "2018-02-24 21:31:15">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Fournisseur::ActiveRecord_Relation (0.94ms)
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.3ms)
+
+
