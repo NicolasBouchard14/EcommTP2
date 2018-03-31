@@ -23,7 +23,7 @@ class ApplicationController < ActionController::API
   end
 
   def auth_token
-    @auth_token ||= JsonWebToken.decode(http_token)
+    @auth_token ||= JWTWrapper.decode(http_token)
   end
 
   def user_id_in_token?
