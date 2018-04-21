@@ -651,3 +651,2124 @@ Processing by FournisseursController#index as */*
 Completed 404 Not Found in 1ms (Views: 0.4ms | ActiveRecord: 0.1ms)
 
 
+Started POST "/auth_user" for 192.168.142.1 at 2018-03-31 12:50:41 -0400
+Processing by AuthenticationController#authenticate_user as */*
+  Parameters: {"email"=>"test@test.test", "password"=>"[FILTERED]", "authentication"=>{"email"=>"test@test.test", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "test@test.test"], ["LIMIT", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.16ms)
+Completed 200 OK in 114ms (Views: 0.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/fournisseurs" for 192.168.142.1 at 2018-03-31 12:50:52 -0400
+Processing by FournisseursController#index as */*
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 404 Not Found in 1ms (Views: 0.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/fournisseurs" for 192.168.142.1 at 2018-03-31 12:50:54 -0400
+Processing by FournisseursController#index as */*
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.09ms)
+Completed 404 Not Found in 1ms (Views: 0.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/fournisseurs" for 192.168.142.1 at 2018-03-31 12:50:54 -0400
+Processing by FournisseursController#index as */*
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.05ms)
+Completed 404 Not Found in 1ms (Views: 0.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/fournisseurs" for 192.168.142.1 at 2018-03-31 12:50:55 -0400
+Processing by FournisseursController#index as */*
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.05ms)
+Completed 404 Not Found in 1ms (Views: 0.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/fournisseurs" for 192.168.142.1 at 2018-03-31 12:50:55 -0400
+Processing by FournisseursController#index as */*
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.05ms)
+Completed 404 Not Found in 1ms (Views: 0.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/fournisseurs" for 192.168.142.1 at 2018-03-31 12:50:55 -0400
+Processing by FournisseursController#index as */*
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.08ms)
+Completed 404 Not Found in 1ms (Views: 0.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/fournisseurs" for 192.168.142.1 at 2018-03-31 12:50:55 -0400
+Processing by FournisseursController#index as */*
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.11ms)
+Completed 404 Not Found in 1ms (Views: 0.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/fournisseurs" for 192.168.142.1 at 2018-03-31 12:50:55 -0400
+Processing by FournisseursController#index as */*
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.05ms)
+Completed 404 Not Found in 1ms (Views: 0.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/fournisseurs" for 192.168.142.1 at 2018-03-31 12:50:55 -0400
+Processing by FournisseursController#index as */*
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 404 Not Found in 1ms (Views: 0.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/fournisseurs" for 192.168.142.1 at 2018-03-31 12:50:56 -0400
+Processing by FournisseursController#index as */*
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.05ms)
+Completed 404 Not Found in 1ms (Views: 0.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/fournisseurs" for 192.168.142.1 at 2018-03-31 12:50:56 -0400
+Processing by FournisseursController#index as */*
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 404 Not Found in 1ms (Views: 0.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/fournisseurs" for 192.168.142.1 at 2018-03-31 12:50:56 -0400
+Processing by FournisseursController#index as */*
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.07ms)
+Completed 404 Not Found in 2ms (Views: 0.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/fournisseurs" for 192.168.142.1 at 2018-03-31 12:50:56 -0400
+Processing by FournisseursController#index as */*
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.05ms)
+Completed 404 Not Found in 1ms (Views: 0.3ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/auth_user" for 192.168.142.1 at 2018-03-31 14:31:12 -0400
+Processing by AuthenticationController#authenticate_user as */*
+  Parameters: {"email"=>"test@test.test", "password"=>"[FILTERED]", "authentication"=>{"email"=>"test@test.test", "password"=>"[FILTERED]"}}
+Completed 401 Unauthorized in 18ms
+
+
+  
+NoMethodError (undefined method `flash' for #<ActionDispatch::Request:0x00007f2a84021678>):
+  
+devise (4.4.0) lib/devise/failure_app.rb:19:in `flash'
+devise (4.4.0) lib/devise/failure_app.rb:81:in `redirect'
+devise (4.4.0) lib/devise/failure_app.rb:43:in `respond'
+actionpack (5.1.5) lib/abstract_controller/base.rb:186:in `process_action'
+actionpack (5.1.5) lib/abstract_controller/base.rb:124:in `process'
+actionpack (5.1.5) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.5) lib/action_controller/metal.rb:242:in `block in action'
+devise (4.4.0) lib/devise/failure_app.rb:23:in `call'
+devise (4.4.0) lib/devise/delegator.rb:7:in `call'
+warden (1.2.7) lib/warden/manager.rb:143:in `call_failure_app'
+warden (1.2.7) lib/warden/manager.rb:129:in `process_unauthenticated'
+warden (1.2.7) lib/warden/manager.rb:44:in `call'
+rack (2.0.4) lib/rack/etag.rb:25:in `call'
+rack (2.0.4) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.4) lib/rack/head.rb:12:in `call'
+activerecord (5.1.5) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.5) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started POST "/auth_user" for 192.168.142.1 at 2018-03-31 14:32:12 -0400
+Processing by AuthenticationController#authenticate_user as */*
+  Parameters: {"email"=>"test@test.test", "password"=>"[FILTERED]", "authentication"=>{"email"=>"test@test.test", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "test@test.test"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 126ms (ActiveRecord: 1.3ms)
+
+
+  
+SyntaxError (/home/nicolas/RubymineProjects/EcommTP2/app/helpers/jwt_wrapper.rb:10: syntax error, unexpected ')', expecting '='
+...application.secrets.jwt_secret)
+...                              ^
+/home/nicolas/RubymineProjects/EcommTP2/app/helpers/jwt_wrapper.rb:22: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/helpers/jwt_wrapper.rb:10: syntax error, unexpected ')', expecting '='
+app/helpers/jwt_wrapper.rb:22: syntax error, unexpected end-of-input, expecting keyword_end
+app/controllers/authentication_controller.rb:16:in `payload'
+app/controllers/authentication_controller.rb:5:in `authenticate_user'
+Started POST "/auth_user" for 192.168.142.1 at 2018-03-31 14:32:46 -0400
+Processing by AuthenticationController#authenticate_user as */*
+  Parameters: {"email"=>"test@test.test", "password"=>"[FILTERED]", "authentication"=>{"email"=>"test@test.test", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "test@test.test"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 112ms (ActiveRecord: 0.2ms)
+
+
+  
+SyntaxError (/home/nicolas/RubymineProjects/EcommTP2/app/helpers/jwt_wrapper.rb:10: syntax error, unexpected ')', expecting '='
+...application.secrets.jwt_secret)
+...                              ^
+/home/nicolas/RubymineProjects/EcommTP2/app/helpers/jwt_wrapper.rb:22: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/helpers/jwt_wrapper.rb:10: syntax error, unexpected ')', expecting '='
+app/helpers/jwt_wrapper.rb:22: syntax error, unexpected end-of-input, expecting keyword_end
+app/controllers/authentication_controller.rb:16:in `payload'
+app/controllers/authentication_controller.rb:5:in `authenticate_user'
+Started POST "/auth_user" for 192.168.142.1 at 2018-03-31 14:32:57 -0400
+Processing by AuthenticationController#authenticate_user as */*
+  Parameters: {"email"=>"test@test.test", "password"=>"[FILTERED]", "authentication"=>{"email"=>"test@test.test", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "test@test.test"], ["LIMIT", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.09ms)
+Completed 200 OK in 127ms (Views: 2.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/fournisseurs" for 192.168.142.1 at 2018-03-31 14:38:29 -0400
+Processing by FournisseursController#index as */*
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 404 Not Found in 6ms (Views: 2.0ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/auth_user" for 192.168.142.1 at 2018-04-05 19:13:47 -0400
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AuthenticationController#authenticate_user as */*
+  Parameters: {"email"=>"test@test.test", "password"=>"[FILTERED]", "authentication"=>{"email"=>"test@test.test", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "test@test.test"], ["LIMIT", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.1ms)
+Completed 200 OK in 217ms (Views: 9.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/fournisseurs" for 192.168.142.1 at 2018-04-05 19:14:31 -0400
+Processing by FournisseursController#index as */*
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 404 Not Found in 10ms (Views: 0.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/fournisseurs" for 192.168.142.1 at 2018-04-05 19:16:54 -0400
+Processing by FournisseursController#index as */*
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 404 Not Found in 7ms (Views: 2.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/fournisseurs" for 192.168.142.1 at 2018-04-05 19:18:47 -0400
+Processing by FournisseursController#index as */*
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.05ms)
+Completed 404 Not Found in 1ms (Views: 0.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/fournisseurs" for 192.168.142.1 at 2018-04-05 19:20:20 -0400
+Processing by FournisseursController#index as */*
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 404 Not Found in 1ms (Views: 0.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/fournisseurs" for 192.168.142.1 at 2018-04-05 19:20:22 -0400
+Processing by FournisseursController#index as */*
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 404 Not Found in 1ms (Views: 0.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/fournisseurs" for 192.168.142.1 at 2018-04-05 19:20:23 -0400
+Processing by FournisseursController#index as */*
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.05ms)
+Completed 404 Not Found in 1ms (Views: 0.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/fournisseurs" for 192.168.142.1 at 2018-04-05 19:21:46 -0400
+  
+TypeError (wrong argument type Class (expected Module)):
+  
+app/models/user.rb:4:in `<class:User>'
+app/models/user.rb:1:in `<top (required)>'
+config/routes.rb:3:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/fournisseurs" for 192.168.142.1 at 2018-04-05 19:22:49 -0400
+  
+TypeError (wrong argument type Class (expected Module)):
+  
+app/models/user.rb:4:in `<class:User>'
+app/models/user.rb:1:in `<top (required)>'
+config/routes.rb:3:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/fournisseurs" for 192.168.142.1 at 2018-04-05 19:23:45 -0400
+Processing by FournisseursController#index as */*
+  [1m[36mFournisseur Load (0.1ms)[0m  [1m[34mSELECT "fournisseurs".* FROM "fournisseurs"[0m
+No serializer found for resource: #<Fournisseur id: 1, nom: "Hagenes, Ankunding and Goodwin", adresse: "2153 Romaguera Track, East Cassidy, Wallis and Fut...", tel: "1-835-165-3290 x4367", created_at: "2018-02-24 21:31:15", updated_at: "2018-02-24 21:31:15">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Fournisseur::ActiveRecord_Relation (0.9ms)
+Completed 200 OK in 62ms (Views: 19.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/fournisseurs" for 192.168.142.1 at 2018-04-05 19:25:02 -0400
+Processing by FournisseursController#index as */*
+  [1m[36mFournisseur Load (0.2ms)[0m  [1m[34mSELECT "fournisseurs".* FROM "fournisseurs"[0m
+No serializer found for resource: #<Fournisseur id: 1, nom: "Hagenes, Ankunding and Goodwin", adresse: "2153 Romaguera Track, East Cassidy, Wallis and Fut...", tel: "1-835-165-3290 x4367", created_at: "2018-02-24 21:31:15", updated_at: "2018-02-24 21:31:15">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Fournisseur::ActiveRecord_Relation (0.88ms)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/fournisseurs" for 192.168.142.1 at 2018-04-05 19:25:55 -0400
+Processing by FournisseursController#index as */*
+  [1m[36mFournisseur Load (0.3ms)[0m  [1m[34mSELECT "fournisseurs".* FROM "fournisseurs"[0m
+No serializer found for resource: #<Fournisseur id: 1, nom: "Hagenes, Ankunding and Goodwin", adresse: "2153 Romaguera Track, East Cassidy, Wallis and Fut...", tel: "1-835-165-3290 x4367", created_at: "2018-02-24 21:31:15", updated_at: "2018-02-24 21:31:15">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Fournisseur::ActiveRecord_Relation (1.5ms)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/fournisseurs" for 192.168.142.1 at 2018-04-05 19:35:52 -0400
+  
+ArgumentError (Passing string to define a callback is not supported. See the `.set_callback` documentation to see supported values.):
+  
+app/controllers/fournisseurs_controller.rb:3:in `<class:FournisseursController>'
+app/controllers/fournisseurs_controller.rb:1:in `<top (required)>'
+Started POST "/v1/auth_user" for 192.168.106.1 at 2018-04-09 10:50:00 -0400
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [POST] "/v1/auth_user"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started POST "/auth_user" for 192.168.106.1 at 2018-04-09 10:50:13 -0400
+  
+SyntaxError (/home/nicolas/RubymineProjects/EcommTP2/app/controllers/application_controller.rb:25: embedded document meets end of file):
+  
+app/controllers/application_controller.rb:25: embedded document meets end of file
+app/controllers/authentication_controller.rb:1:in `<top (required)>'
+Started POST "/auth_user" for 192.168.106.1 at 2018-04-09 10:53:42 -0400
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+SyntaxError (/home/nicolas/RubymineProjects/EcommTP2/app/controllers/application_controller.rb:16: embedded document meets end of file):
+  
+app/controllers/application_controller.rb:16: embedded document meets end of file
+app/controllers/authentication_controller.rb:1:in `<top (required)>'
+Started POST "/auth_user" for 192.168.106.1 at 2018-04-09 10:54:56 -0400
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+NoMethodError (undefined method `make_response!' for AuthenticationController:Class):
+  
+actionpack (5.1.5) lib/action_dispatch/routing/route_set.rb:30:in `serve'
+actionpack (5.1.5) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.5) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.5) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.5) lib/action_dispatch/routing/route_set.rb:844:in `call'
+warden (1.2.7) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.7) lib/warden/manager.rb:35:in `catch'
+warden (1.2.7) lib/warden/manager.rb:35:in `call'
+rack (2.0.4) lib/rack/etag.rb:25:in `call'
+rack (2.0.4) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.4) lib/rack/head.rb:12:in `call'
+activerecord (5.1.5) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.5) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started POST "/auth_user" for 192.168.106.1 at 2018-04-09 10:56:27 -0400
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+NoMethodError (undefined method `make_response!' for AuthenticationController:Class):
+  
+actionpack (5.1.5) lib/action_dispatch/routing/route_set.rb:30:in `serve'
+actionpack (5.1.5) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.5) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.5) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.5) lib/action_dispatch/routing/route_set.rb:844:in `call'
+warden (1.2.7) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.7) lib/warden/manager.rb:35:in `catch'
+warden (1.2.7) lib/warden/manager.rb:35:in `call'
+rack (2.0.4) lib/rack/etag.rb:25:in `call'
+rack (2.0.4) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.4) lib/rack/head.rb:12:in `call'
+activerecord (5.1.5) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.5) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (12.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_produits_on_fournisseur_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_produits_on_fournisseur_id' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.3ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.9ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_produits_on_fournisseur_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_produits_on_fournisseur_id' AND type='index'
+[0m
+  [1m[35m (0.3ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.4ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (223.2ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (120.5ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateFournisseurs (20180224180435)
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE TABLE "fournisseurs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "nom" varchar, "adresse" varchar, "tel" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20180224180435"]]
+  [1m[35m (136.8ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateProduits (20180224180532)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE TABLE "produits" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "nom" varchar, "quantite" integer, "description" varchar, "prix" float, "fournisseur_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, CONSTRAINT "fk_rails_1dbb91110a"
+FOREIGN KEY ("fournisseur_id")
+  REFERENCES "fournisseurs" ("id")
+)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE  INDEX "index_produits_on_fournisseur_id" ON "produits" ("fournisseur_id")[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20180224180532"]]
+  [1m[35m (169.1ms)[0m  [1m[36mcommit transaction[0m
+Migrating to DeviseCreateUsers (20180312131949)
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (2.0ms)[0m  [1m[35mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (1.7ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (0.7ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+  [1m[35m (0.8ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20180312131949"]]
+  [1m[35m (176.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2018-04-09 15:02:00.382312"], ["updated_at", "2018-04-09 15:02:00.382312"]]
+  [1m[35m (110.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_produits_on_fournisseur_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_produits_on_fournisseur_id' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.4ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "test@test.com"], ["LIMIT", 1]]
+  [1m[35mSQL (1.1ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "test@test.com"], ["encrypted_password", "$2a$11$bCZq4vrZ.V3iGI8Y9u8BnO.cEB25cGE9HmCq5EKNG5fNsrOZJ75JC"], ["created_at", "2018-04-09 15:09:03.554403"], ["updated_at", "2018-04-09 15:09:03.554403"]]
+  [1m[35m (240.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+Started POST "/auth_user" for 192.168.106.1 at 2018-04-09 11:10:17 -0400
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+NoMethodError (undefined method `make_response!' for AuthenticationController:Class):
+  
+actionpack (5.1.5) lib/action_dispatch/routing/route_set.rb:30:in `serve'
+actionpack (5.1.5) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.5) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.5) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.5) lib/action_dispatch/routing/route_set.rb:844:in `call'
+warden (1.2.7) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.7) lib/warden/manager.rb:35:in `catch'
+warden (1.2.7) lib/warden/manager.rb:35:in `call'
+rack (2.0.4) lib/rack/etag.rb:25:in `call'
+rack (2.0.4) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.4) lib/rack/head.rb:12:in `call'
+activerecord (5.1.5) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.5) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started POST "/auth_user" for 192.168.142.1 at 2018-04-21 10:53:01 -0400
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+NoMethodError (undefined method `make_response!' for AuthenticationController:Class):
+  
+actionpack (5.1.5) lib/action_dispatch/routing/route_set.rb:30:in `serve'
+actionpack (5.1.5) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.5) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.5) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.5) lib/action_dispatch/routing/route_set.rb:844:in `call'
+warden (1.2.7) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.7) lib/warden/manager.rb:35:in `catch'
+warden (1.2.7) lib/warden/manager.rb:35:in `call'
+rack (2.0.4) lib/rack/etag.rb:25:in `call'
+rack (2.0.4) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.4) lib/rack/head.rb:12:in `call'
+activerecord (5.1.5) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.5) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started POST "/auth_user" for 192.168.142.1 at 2018-04-21 10:56:27 -0400
+  
+NoMethodError (undefined method `make_response!' for AuthenticationController:Class):
+  
+actionpack (5.1.5) lib/action_dispatch/routing/route_set.rb:30:in `serve'
+actionpack (5.1.5) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.5) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.5) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.5) lib/action_dispatch/routing/route_set.rb:844:in `call'
+warden (1.2.7) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.7) lib/warden/manager.rb:35:in `catch'
+warden (1.2.7) lib/warden/manager.rb:35:in `call'
+rack (2.0.4) lib/rack/etag.rb:25:in `call'
+rack (2.0.4) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.4) lib/rack/head.rb:12:in `call'
+activerecord (5.1.5) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.5) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started POST "/auth_user" for 192.168.142.1 at 2018-04-21 10:56:38 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+NoMethodError (undefined method `make_response!' for AuthenticationController:Class):
+  
+actionpack (5.1.5) lib/action_dispatch/routing/route_set.rb:30:in `serve'
+actionpack (5.1.5) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.5) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.5) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.5) lib/action_dispatch/routing/route_set.rb:844:in `call'
+warden (1.2.7) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.7) lib/warden/manager.rb:35:in `catch'
+warden (1.2.7) lib/warden/manager.rb:35:in `call'
+rack (2.0.4) lib/rack/etag.rb:25:in `call'
+rack (2.0.4) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.4) lib/rack/head.rb:12:in `call'
+activerecord (5.1.5) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.5) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started POST "/auth_user" for 192.168.142.1 at 2018-04-21 10:57:56 -0400
+Processing by AuthenticationController#authenticate_user as */*
+  Parameters: {"email"=>"test@test.test", "password"=>"[FILTERED]", "authentication"=>{"email"=>"test@test.test", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "test@test.test"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 11ms (ActiveRecord: 1.2ms)
+
+
+  
+NoMethodError (undefined method `valid_password?' for nil:NilClass):
+  
+app/controllers/authentication_controller.rb:7:in `authenticate_user'
+Started POST "/auth_user" for 192.168.142.1 at 2018-04-21 11:11:05 -0400
+Processing by AuthenticationController#authenticate_user as */*
+  Parameters: {"email"=>"test@test.test", "password"=>"[FILTERED]", "authentication"=>{"email"=>"test@test.test", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "test@test.test"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 5ms (ActiveRecord: 1.0ms)
+
+
+  
+NoMethodError (undefined method `valid_password?' for nil:NilClass):
+  
+app/controllers/authentication_controller.rb:7:in `authenticate_user'
+Started POST "/auth_user" for 192.168.142.1 at 2018-04-21 11:20:32 -0400
+Processing by AuthenticationController#authenticate_user as */*
+  Parameters: {"email"=>"test@test.test", "password"=>"[FILTERED]", "authentication"=>{"email"=>"test@test.test", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "test@test.test"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 8ms (ActiveRecord: 0.9ms)
+
+
+  
+NoMethodError (undefined method `valid_password?' for nil:NilClass):
+  
+app/controllers/authentication_controller.rb:9:in `authenticate_user'
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (3.8ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (4.5ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateFournisseurs (20180224180435)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE TABLE "fournisseurs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "nom" varchar, "adresse" varchar, "tel" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20180224180435"]]
+  [1m[35m (2.8ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateProduits (20180224180532)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE TABLE "produits" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "nom" varchar, "quantite" integer, "description" varchar, "prix" float, "fournisseur_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, CONSTRAINT "fk_rails_1dbb91110a"
+FOREIGN KEY ("fournisseur_id")
+  REFERENCES "fournisseurs" ("id")
+)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "index_produits_on_fournisseur_id" ON "produits" ("fournisseur_id")[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20180224180532"]]
+  [1m[35m (3.2ms)[0m  [1m[36mcommit transaction[0m
+Migrating to DeviseCreateUsers (20180312131949)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20180312131949"]]
+  [1m[35m (4.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2018-04-21 15:23:14.962360"], ["updated_at", "2018-04-21 15:23:14.962360"]]
+  [1m[35m (7.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_produits_on_fournisseur_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_produits_on_fournisseur_id' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "test@test.test"], ["LIMIT", 1]]
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "test@test.test"], ["encrypted_password", "$2a$11$wfnq7cs65GW/Z4ytkA/R0uBkyVoULGY3Vj4CzDn5rsRlstcHz4TMa"], ["created_at", "2018-04-21 15:25:10.216051"], ["updated_at", "2018-04-21 15:25:10.216051"]]
+  [1m[35m (3.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+Started POST "/auth_user" for 192.168.142.1 at 2018-04-21 11:25:39 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AuthenticationController#authenticate_user as */*
+  Parameters: {"email"=>"test@test.test", "password"=>"[FILTERED]", "authentication"=>{"email"=>"test@test.test", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "test@test.test"], ["LIMIT", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.22ms)
+Completed 200 OK in 175ms (Views: 20.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/fournisseurs" for 192.168.142.1 at 2018-04-21 11:26:20 -0400
+Processing by FournisseursController#index as */*
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "users" SET "current_sign_in_at" = ?, "last_sign_in_at" = ?, "current_sign_in_ip" = ?, "last_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["current_sign_in_at", "2018-04-21 15:26:20.340460"], ["last_sign_in_at", "2018-04-21 15:26:20.340460"], ["current_sign_in_ip", "192.168.142.1"], ["last_sign_in_ip", "192.168.142.1"], ["sign_in_count", 1], ["updated_at", "2018-04-21 15:26:20.341343"], ["id", 1]]
+  [1m[35m (3.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mFournisseur Load (0.3ms)[0m  [1m[34mSELECT "fournisseurs".* FROM "fournisseurs"[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::JsonApi (12.12ms)
+Completed 200 OK in 164ms (Views: 93.0ms | ActiveRecord: 5.2ms)
+
+
+Started GET "/fournisseurs" for 192.168.142.1 at 2018-04-21 11:26:54 -0400
+Processing by FournisseursController#index as */*
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "users" SET "current_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["current_sign_in_at", "2018-04-21 15:26:54.371937"], ["sign_in_count", 2], ["updated_at", "2018-04-21 15:26:54.372573"], ["id", 1]]
+  [1m[35m (2.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mFournisseur Load (0.2ms)[0m  [1m[34mSELECT "fournisseurs".* FROM "fournisseurs"[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::JsonApi (0.09ms)
+Completed 200 OK in 8ms (Views: 1.7ms | ActiveRecord: 3.5ms)
+
+
+Started POST "/auth_user" for 192.168.142.1 at 2018-04-21 11:29:00 -0400
+Processing by AuthenticationController#authenticate_user as */*
+  Parameters: {"email"=>"test@test.test", "password"=>"[FILTERED]", "authentication"=>{"email"=>"test@test.test", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "test@test.test"], ["LIMIT", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.18ms)
+Completed 200 OK in 115ms (Views: 1.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/fournisseurs" for 192.168.142.1 at 2018-04-21 11:29:09 -0400
+Processing by FournisseursController#index as */*
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[33mUPDATE "users" SET "current_sign_in_at" = ?, "last_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["current_sign_in_at", "2018-04-21 15:29:09.634845"], ["last_sign_in_at", "2018-04-21 15:26:54.371937"], ["sign_in_count", 3], ["updated_at", "2018-04-21 15:29:09.635600"], ["id", 1]]
+  [1m[35m (234.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mFournisseur Load (0.3ms)[0m  [1m[34mSELECT "fournisseurs".* FROM "fournisseurs"[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::JsonApi (0.16ms)
+Completed 200 OK in 242ms (Views: 1.5ms | ActiveRecord: 235.8ms)
+
+
+Started POST "/auth_user" for 192.168.142.1 at 2018-04-21 11:29:55 -0400
+Processing by AuthenticationController#authenticate_user as */*
+  Parameters: {"email"=>"test@test.test", "password"=>"[FILTERED]", "authentication"=>{"email"=>"test@test.test", "password"=>"[FILTERED]"}}
+Completed 401 Unauthorized in 1ms
+
+
+  
+NoMethodError (undefined method `flash' for #<ActionDispatch::Request:0x00007f5acc2b4b38>):
+  
+devise (4.4.0) lib/devise/failure_app.rb:19:in `flash'
+devise (4.4.0) lib/devise/failure_app.rb:81:in `redirect'
+devise (4.4.0) lib/devise/failure_app.rb:43:in `respond'
+actionpack (5.1.5) lib/abstract_controller/base.rb:186:in `process_action'
+actionpack (5.1.5) lib/abstract_controller/base.rb:124:in `process'
+actionpack (5.1.5) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.5) lib/action_controller/metal.rb:242:in `block in action'
+devise (4.4.0) lib/devise/failure_app.rb:23:in `call'
+devise (4.4.0) lib/devise/delegator.rb:7:in `call'
+warden (1.2.7) lib/warden/manager.rb:143:in `call_failure_app'
+warden (1.2.7) lib/warden/manager.rb:129:in `process_unauthenticated'
+warden (1.2.7) lib/warden/manager.rb:44:in `call'
+rack (2.0.4) lib/rack/etag.rb:25:in `call'
+rack (2.0.4) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.4) lib/rack/head.rb:12:in `call'
+activerecord (5.1.5) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.5) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started POST "/fournisseurs" for 192.168.142.1 at 2018-04-21 11:32:31 -0400
+Processing by FournisseursController#create as */*
+  Parameters: {"nom"=>"testfourn", "adresse"=>"ruefourn", "tel"=>"4182625353", "fournisseur"=>{"nom"=>"testfourn", "adresse"=>"ruefourn", "tel"=>"4182625353"}}
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.6ms)
+
+
+  
+NoMethodError (undefined method `flash' for #<ActionDispatch::Request:0x00007f5acc930700>):
+  
+devise (4.4.0) lib/devise/failure_app.rb:19:in `flash'
+devise (4.4.0) lib/devise/failure_app.rb:81:in `redirect'
+devise (4.4.0) lib/devise/failure_app.rb:43:in `respond'
+actionpack (5.1.5) lib/abstract_controller/base.rb:186:in `process_action'
+actionpack (5.1.5) lib/abstract_controller/base.rb:124:in `process'
+actionpack (5.1.5) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.5) lib/action_controller/metal.rb:242:in `block in action'
+devise (4.4.0) lib/devise/failure_app.rb:23:in `call'
+devise (4.4.0) lib/devise/delegator.rb:7:in `call'
+warden (1.2.7) lib/warden/manager.rb:143:in `call_failure_app'
+warden (1.2.7) lib/warden/manager.rb:129:in `process_unauthenticated'
+warden (1.2.7) lib/warden/manager.rb:44:in `call'
+rack (2.0.4) lib/rack/etag.rb:25:in `call'
+rack (2.0.4) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.4) lib/rack/head.rb:12:in `call'
+activerecord (5.1.5) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.5) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started POST "/fournisseurs" for 192.168.142.1 at 2018-04-21 11:33:07 -0400
+Processing by FournisseursController#create as */*
+  Parameters: {"nom"=>"testfourn", "adresse"=>"ruefourn", "tel"=>"4182625353", "fournisseur"=>{"nom"=>"testfourn", "adresse"=>"ruefourn", "tel"=>"4182625353"}}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.4ms)[0m  [1m[33mUPDATE "users" SET "current_sign_in_at" = ?, "last_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["current_sign_in_at", "2018-04-21 15:33:07.934598"], ["last_sign_in_at", "2018-04-21 15:29:09.634845"], ["sign_in_count", 4], ["updated_at", "2018-04-21 15:33:07.936065"], ["id", 1]]
+  [1m[35m (4.6ms)[0m  [1m[36mcommit transaction[0m
+Unpermitted parameter: :fournisseur
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "fournisseurs" ("nom", "adresse", "tel", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["nom", "testfourn"], ["adresse", "ruefourn"], ["tel", "4182625353"], ["created_at", "2018-04-21 15:33:07.951188"], ["updated_at", "2018-04-21 15:33:07.951188"]]
+  [1m[35m (10.3ms)[0m  [1m[36mcommit transaction[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Fournisseur (0.27ms)
+Completed 201 Created in 49ms (Views: 6.3ms | ActiveRecord: 17.6ms)
+
+
+Started GET "/fournisseurs" for 192.168.142.1 at 2018-04-21 11:34:19 -0400
+Processing by FournisseursController#index as */*
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "users" SET "current_sign_in_at" = ?, "last_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["current_sign_in_at", "2018-04-21 15:34:19.739501"], ["last_sign_in_at", "2018-04-21 15:33:07.934598"], ["sign_in_count", 5], ["updated_at", "2018-04-21 15:34:19.740468"], ["id", 1]]
+  [1m[35m (2.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mFournisseur Load (0.3ms)[0m  [1m[34mSELECT "fournisseurs".* FROM "fournisseurs"[0m
+No serializer found for resource: #<Fournisseur id: 1, nom: "testfourn", adresse: "ruefourn", tel: "4182625353", created_at: "2018-04-21 15:33:07", updated_at: "2018-04-21 15:33:07">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Fournisseur::ActiveRecord_Relation (0.55ms)
+Completed 200 OK in 51ms (Views: 21.3ms | ActiveRecord: 5.7ms)
+
+
+Started POST "/auth_user" for 192.168.142.1 at 2018-04-21 11:34:30 -0400
+  
+NoMethodError (undefined method `make_response!' for AuthenticationController:Class):
+  
+actionpack (5.1.5) lib/action_dispatch/routing/route_set.rb:30:in `serve'
+actionpack (5.1.5) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.5) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.5) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.5) lib/action_dispatch/routing/route_set.rb:844:in `call'
+warden (1.2.7) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.7) lib/warden/manager.rb:35:in `catch'
+warden (1.2.7) lib/warden/manager.rb:35:in `call'
+rack (2.0.4) lib/rack/etag.rb:25:in `call'
+rack (2.0.4) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.4) lib/rack/head.rb:12:in `call'
+activerecord (5.1.5) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.5) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started POST "/auth_user" for 192.168.142.1 at 2018-04-21 11:34:41 -0400
+  
+NoMethodError (undefined method `make_response!' for AuthenticationController:Class):
+  
+actionpack (5.1.5) lib/action_dispatch/routing/route_set.rb:30:in `serve'
+actionpack (5.1.5) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.5) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.5) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.5) lib/action_dispatch/routing/route_set.rb:844:in `call'
+warden (1.2.7) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.7) lib/warden/manager.rb:35:in `catch'
+warden (1.2.7) lib/warden/manager.rb:35:in `call'
+rack (2.0.4) lib/rack/etag.rb:25:in `call'
+rack (2.0.4) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.4) lib/rack/head.rb:12:in `call'
+activerecord (5.1.5) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.5) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started POST "/auth_user" for 192.168.142.1 at 2018-04-21 11:34:42 -0400
+  
+NoMethodError (undefined method `make_response!' for AuthenticationController:Class):
+  
+actionpack (5.1.5) lib/action_dispatch/routing/route_set.rb:30:in `serve'
+actionpack (5.1.5) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.5) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.5) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.5) lib/action_dispatch/routing/route_set.rb:844:in `call'
+warden (1.2.7) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.7) lib/warden/manager.rb:35:in `catch'
+warden (1.2.7) lib/warden/manager.rb:35:in `call'
+rack (2.0.4) lib/rack/etag.rb:25:in `call'
+rack (2.0.4) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.4) lib/rack/head.rb:12:in `call'
+activerecord (5.1.5) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.5) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started POST "/auth_user" for 192.168.142.1 at 2018-04-21 11:35:07 -0400
+Processing by AuthenticationController#authenticate_user as */*
+  Parameters: {"email"=>"test@test.test", "password"=>"[FILTERED]", "authentication"=>{"email"=>"test@test.test", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "test@test.test"], ["LIMIT", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.09ms)
+Completed 200 OK in 129ms (Views: 2.4ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/auth_user" for 192.168.142.1 at 2018-04-21 11:35:09 -0400
+Processing by AuthenticationController#authenticate_user as */*
+  Parameters: {"email"=>"test@test.test", "password"=>"[FILTERED]", "authentication"=>{"email"=>"test@test.test", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "test@test.test"], ["LIMIT", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.11ms)
+Completed 200 OK in 113ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/auth_user" for 192.168.142.1 at 2018-04-21 11:35:10 -0400
+Processing by AuthenticationController#authenticate_user as */*
+  Parameters: {"email"=>"test@test.test", "password"=>"[FILTERED]", "authentication"=>{"email"=>"test@test.test", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "test@test.test"], ["LIMIT", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.09ms)
+Completed 200 OK in 113ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/auth_user" for 192.168.142.1 at 2018-04-21 11:35:12 -0400
+Processing by AuthenticationController#authenticate_user as */*
+  Parameters: {"email"=>"test@test.test", "password"=>"[FILTERED]", "authentication"=>{"email"=>"test@test.test", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "test@test.test"], ["LIMIT", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.12ms)
+Completed 200 OK in 113ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/auth_user" for 192.168.142.1 at 2018-04-21 11:35:13 -0400
+Processing by AuthenticationController#authenticate_user as */*
+  Parameters: {"email"=>"test@test.test", "password"=>"[FILTERED]", "authentication"=>{"email"=>"test@test.test", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "test@test.test"], ["LIMIT", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.09ms)
+Completed 200 OK in 113ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/auth_user" for 192.168.142.1 at 2018-04-21 11:35:21 -0400
+  
+NoMethodError (undefined method `make_response!' for AuthenticationController:Class):
+  
+actionpack (5.1.5) lib/action_dispatch/routing/route_set.rb:30:in `serve'
+actionpack (5.1.5) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.5) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.5) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.5) lib/action_dispatch/routing/route_set.rb:844:in `call'
+warden (1.2.7) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.7) lib/warden/manager.rb:35:in `catch'
+warden (1.2.7) lib/warden/manager.rb:35:in `call'
+rack (2.0.4) lib/rack/etag.rb:25:in `call'
+rack (2.0.4) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.4) lib/rack/head.rb:12:in `call'
+activerecord (5.1.5) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.5) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started POST "/auth_user" for 192.168.142.1 at 2018-04-21 11:35:22 -0400
+  
+NoMethodError (undefined method `make_response!' for AuthenticationController:Class):
+  
+actionpack (5.1.5) lib/action_dispatch/routing/route_set.rb:30:in `serve'
+actionpack (5.1.5) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.5) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.5) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.5) lib/action_dispatch/routing/route_set.rb:844:in `call'
+warden (1.2.7) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.7) lib/warden/manager.rb:35:in `catch'
+warden (1.2.7) lib/warden/manager.rb:35:in `call'
+rack (2.0.4) lib/rack/etag.rb:25:in `call'
+rack (2.0.4) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.4) lib/rack/head.rb:12:in `call'
+activerecord (5.1.5) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.5) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started POST "/auth_user" for 192.168.142.1 at 2018-04-21 11:37:56 -0400
+  
+ActionController::RoutingError (undefined method `skip_before_action' for AuthenticationController:Class):
+  
+app/controllers/authentication_controller.rb:3:in `<class:AuthenticationController>'
+app/controllers/authentication_controller.rb:1:in `<top (required)>'
+Started POST "/auth_user" for 192.168.142.1 at 2018-04-21 11:38:51 -0400
+Processing by AuthenticationController#authenticate_user as */*
+  Parameters: {"email"=>"test@test.test", "password"=>"[FILTERED]", "authentication"=>{"email"=>"test@test.test", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "test@test.test"], ["LIMIT", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.09ms)
+Completed 200 OK in 126ms (Views: 2.3ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/auth_user" for 192.168.142.1 at 2018-04-21 11:38:55 -0400
+Processing by AuthenticationController#authenticate_user as */*
+  Parameters: {"email"=>"test@test.test", "password"=>"[FILTERED]", "authentication"=>{"email"=>"test@test.test", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "test@test.test"], ["LIMIT", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.09ms)
+Completed 200 OK in 116ms (Views: 0.8ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/auth_user" for 192.168.142.1 at 2018-04-21 11:39:06 -0400
+Processing by AuthenticationController#authenticate_user as */*
+  Parameters: {"email"=>"test@test.test", "password"=>"[FILTERED]", "authentication"=>{"email"=>"test@test.test", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "test@test.test"], ["LIMIT", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.11ms)
+Completed 200 OK in 125ms (Views: 2.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/fournisseurs" for 192.168.142.1 at 2018-04-21 11:39:16 -0400
+Processing by FournisseursController#index as */*
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[33mUPDATE "users" SET "current_sign_in_at" = ?, "last_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["current_sign_in_at", "2018-04-21 15:39:16.545223"], ["last_sign_in_at", "2018-04-21 15:34:19.739501"], ["sign_in_count", 6], ["updated_at", "2018-04-21 15:39:16.546006"], ["id", 1]]
+  [1m[35m (2.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mFournisseur Load (0.2ms)[0m  [1m[34mSELECT "fournisseurs".* FROM "fournisseurs"[0m
+No serializer found for resource: #<Fournisseur id: 1, nom: "testfourn", adresse: "ruefourn", tel: "4182625353", created_at: "2018-04-21 15:33:07", updated_at: "2018-04-21 15:33:07">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Fournisseur::ActiveRecord_Relation (0.23ms)
+Completed 200 OK in 18ms (Views: 7.0ms | ActiveRecord: 4.3ms)
+
+
+Started GET "/fournisseurs" for 192.168.142.1 at 2018-04-21 11:39:17 -0400
+Processing by FournisseursController#index as */*
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[33mUPDATE "users" SET "current_sign_in_at" = ?, "last_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["current_sign_in_at", "2018-04-21 15:39:17.999823"], ["last_sign_in_at", "2018-04-21 15:39:16.545223"], ["sign_in_count", 7], ["updated_at", "2018-04-21 15:39:18.000562"], ["id", 1]]
+  [1m[35m (2.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mFournisseur Load (0.1ms)[0m  [1m[34mSELECT "fournisseurs".* FROM "fournisseurs"[0m
+No serializer found for resource: #<Fournisseur id: 1, nom: "testfourn", adresse: "ruefourn", tel: "4182625353", created_at: "2018-04-21 15:33:07", updated_at: "2018-04-21 15:33:07">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Fournisseur::ActiveRecord_Relation (0.24ms)
+Completed 200 OK in 9ms (Views: 1.8ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/fournisseurs" for 192.168.142.1 at 2018-04-21 11:39:31 -0400
+Processing by FournisseursController#index as */*
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[33mUPDATE "users" SET "current_sign_in_at" = ?, "last_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["current_sign_in_at", "2018-04-21 15:39:31.604593"], ["last_sign_in_at", "2018-04-21 15:39:17.999823"], ["sign_in_count", 8], ["updated_at", "2018-04-21 15:39:31.605223"], ["id", 1]]
+  [1m[35m (16.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mFournisseur Load (0.2ms)[0m  [1m[34mSELECT "fournisseurs".* FROM "fournisseurs"[0m
+No serializer found for resource: #<Fournisseur id: 1, nom: "testfourn", adresse: "ruefourn", tel: "4182625353", created_at: "2018-04-21 15:33:07", updated_at: "2018-04-21 15:33:07">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Fournisseur::ActiveRecord_Relation (0.18ms)
+Completed 200 OK in 23ms (Views: 1.2ms | ActiveRecord: 17.8ms)
+
+
+Started GET "/fournisseurs" for 192.168.142.1 at 2018-04-21 11:39:37 -0400
+Processing by FournisseursController#index as */*
+Completed 401 Unauthorized in 0ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `flash' for #<ActionDispatch::Request:0x00007f5acc20ce10>):
+  
+devise (4.4.0) lib/devise/failure_app.rb:19:in `flash'
+devise (4.4.0) lib/devise/failure_app.rb:81:in `redirect'
+devise (4.4.0) lib/devise/failure_app.rb:43:in `respond'
+actionpack (5.1.5) lib/abstract_controller/base.rb:186:in `process_action'
+actionpack (5.1.5) lib/abstract_controller/base.rb:124:in `process'
+actionpack (5.1.5) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.5) lib/action_controller/metal.rb:242:in `block in action'
+devise (4.4.0) lib/devise/failure_app.rb:23:in `call'
+devise (4.4.0) lib/devise/delegator.rb:7:in `call'
+warden (1.2.7) lib/warden/manager.rb:143:in `call_failure_app'
+warden (1.2.7) lib/warden/manager.rb:129:in `process_unauthenticated'
+warden (1.2.7) lib/warden/manager.rb:44:in `call'
+rack (2.0.4) lib/rack/etag.rb:25:in `call'
+rack (2.0.4) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.4) lib/rack/head.rb:12:in `call'
+activerecord (5.1.5) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.5) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/fournisseurs" for 192.168.142.1 at 2018-04-21 11:39:45 -0400
+Processing by FournisseursController#index as */*
+Completed 401 Unauthorized in 0ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `flash' for #<ActionDispatch::Request:0x00007f5acc624070>):
+  
+devise (4.4.0) lib/devise/failure_app.rb:19:in `flash'
+devise (4.4.0) lib/devise/failure_app.rb:81:in `redirect'
+devise (4.4.0) lib/devise/failure_app.rb:43:in `respond'
+actionpack (5.1.5) lib/abstract_controller/base.rb:186:in `process_action'
+actionpack (5.1.5) lib/abstract_controller/base.rb:124:in `process'
+actionpack (5.1.5) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.5) lib/action_controller/metal.rb:242:in `block in action'
+devise (4.4.0) lib/devise/failure_app.rb:23:in `call'
+devise (4.4.0) lib/devise/delegator.rb:7:in `call'
+warden (1.2.7) lib/warden/manager.rb:143:in `call_failure_app'
+warden (1.2.7) lib/warden/manager.rb:129:in `process_unauthenticated'
+warden (1.2.7) lib/warden/manager.rb:44:in `call'
+rack (2.0.4) lib/rack/etag.rb:25:in `call'
+rack (2.0.4) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.4) lib/rack/head.rb:12:in `call'
+activerecord (5.1.5) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.5) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/fournisseurs" for 192.168.142.1 at 2018-04-21 11:39:46 -0400
+Processing by FournisseursController#index as */*
+Completed 401 Unauthorized in 0ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `flash' for #<ActionDispatch::Request:0x00007f5acc127a18>):
+  
+devise (4.4.0) lib/devise/failure_app.rb:19:in `flash'
+devise (4.4.0) lib/devise/failure_app.rb:81:in `redirect'
+devise (4.4.0) lib/devise/failure_app.rb:43:in `respond'
+actionpack (5.1.5) lib/abstract_controller/base.rb:186:in `process_action'
+actionpack (5.1.5) lib/abstract_controller/base.rb:124:in `process'
+actionpack (5.1.5) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.5) lib/action_controller/metal.rb:242:in `block in action'
+devise (4.4.0) lib/devise/failure_app.rb:23:in `call'
+devise (4.4.0) lib/devise/delegator.rb:7:in `call'
+warden (1.2.7) lib/warden/manager.rb:143:in `call_failure_app'
+warden (1.2.7) lib/warden/manager.rb:129:in `process_unauthenticated'
+warden (1.2.7) lib/warden/manager.rb:44:in `call'
+rack (2.0.4) lib/rack/etag.rb:25:in `call'
+rack (2.0.4) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.4) lib/rack/head.rb:12:in `call'
+activerecord (5.1.5) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.5) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/fournisseurs" for 192.168.142.1 at 2018-04-21 11:39:49 -0400
+Processing by FournisseursController#index as */*
+Completed 401 Unauthorized in 0ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `flash' for #<ActionDispatch::Request:0x00007f5ad808a928>):
+  
+devise (4.4.0) lib/devise/failure_app.rb:19:in `flash'
+devise (4.4.0) lib/devise/failure_app.rb:81:in `redirect'
+devise (4.4.0) lib/devise/failure_app.rb:43:in `respond'
+actionpack (5.1.5) lib/abstract_controller/base.rb:186:in `process_action'
+actionpack (5.1.5) lib/abstract_controller/base.rb:124:in `process'
+actionpack (5.1.5) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.5) lib/action_controller/metal.rb:242:in `block in action'
+devise (4.4.0) lib/devise/failure_app.rb:23:in `call'
+devise (4.4.0) lib/devise/delegator.rb:7:in `call'
+warden (1.2.7) lib/warden/manager.rb:143:in `call_failure_app'
+warden (1.2.7) lib/warden/manager.rb:129:in `process_unauthenticated'
+warden (1.2.7) lib/warden/manager.rb:44:in `call'
+rack (2.0.4) lib/rack/etag.rb:25:in `call'
+rack (2.0.4) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.4) lib/rack/head.rb:12:in `call'
+activerecord (5.1.5) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.5) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/fournisseurs" for 192.168.142.1 at 2018-04-21 11:40:11 -0400
+Processing by FournisseursController#index as */*
+Completed 401 Unauthorized in 0ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `flash' for #<ActionDispatch::Request:0x00007f5acc227c10>):
+  
+devise (4.4.0) lib/devise/failure_app.rb:19:in `flash'
+devise (4.4.0) lib/devise/failure_app.rb:81:in `redirect'
+devise (4.4.0) lib/devise/failure_app.rb:43:in `respond'
+actionpack (5.1.5) lib/abstract_controller/base.rb:186:in `process_action'
+actionpack (5.1.5) lib/abstract_controller/base.rb:124:in `process'
+actionpack (5.1.5) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.5) lib/action_controller/metal.rb:242:in `block in action'
+devise (4.4.0) lib/devise/failure_app.rb:23:in `call'
+devise (4.4.0) lib/devise/delegator.rb:7:in `call'
+warden (1.2.7) lib/warden/manager.rb:143:in `call_failure_app'
+warden (1.2.7) lib/warden/manager.rb:129:in `process_unauthenticated'
+warden (1.2.7) lib/warden/manager.rb:44:in `call'
+rack (2.0.4) lib/rack/etag.rb:25:in `call'
+rack (2.0.4) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.4) lib/rack/head.rb:12:in `call'
+activerecord (5.1.5) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.5) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/fournisseurs" for 192.168.142.1 at 2018-04-21 11:40:12 -0400
+Processing by FournisseursController#index as */*
+Completed 401 Unauthorized in 0ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `flash' for #<ActionDispatch::Request:0x00007f5acc5edd90>):
+  
+devise (4.4.0) lib/devise/failure_app.rb:19:in `flash'
+devise (4.4.0) lib/devise/failure_app.rb:81:in `redirect'
+devise (4.4.0) lib/devise/failure_app.rb:43:in `respond'
+actionpack (5.1.5) lib/abstract_controller/base.rb:186:in `process_action'
+actionpack (5.1.5) lib/abstract_controller/base.rb:124:in `process'
+actionpack (5.1.5) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.5) lib/action_controller/metal.rb:242:in `block in action'
+devise (4.4.0) lib/devise/failure_app.rb:23:in `call'
+devise (4.4.0) lib/devise/delegator.rb:7:in `call'
+warden (1.2.7) lib/warden/manager.rb:143:in `call_failure_app'
+warden (1.2.7) lib/warden/manager.rb:129:in `process_unauthenticated'
+warden (1.2.7) lib/warden/manager.rb:44:in `call'
+rack (2.0.4) lib/rack/etag.rb:25:in `call'
+rack (2.0.4) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.4) lib/rack/head.rb:12:in `call'
+activerecord (5.1.5) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.5) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/fournisseurs" for 192.168.142.1 at 2018-04-21 11:40:16 -0400
+Processing by FournisseursController#index as */*
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.4ms)[0m  [1m[33mUPDATE "users" SET "current_sign_in_at" = ?, "last_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["current_sign_in_at", "2018-04-21 15:40:16.083358"], ["last_sign_in_at", "2018-04-21 15:39:31.604593"], ["sign_in_count", 9], ["updated_at", "2018-04-21 15:40:16.084198"], ["id", 1]]
+  [1m[35m (2.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mFournisseur Load (0.2ms)[0m  [1m[34mSELECT "fournisseurs".* FROM "fournisseurs"[0m
+No serializer found for resource: #<Fournisseur id: 1, nom: "testfourn", adresse: "ruefourn", tel: "4182625353", created_at: "2018-04-21 15:33:07", updated_at: "2018-04-21 15:33:07">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Fournisseur::ActiveRecord_Relation (0.27ms)
+Completed 200 OK in 10ms (Views: 1.3ms | ActiveRecord: 4.4ms)
+
+
+Started GET "/fournisseurs" for 192.168.142.1 at 2018-04-21 11:40:24 -0400
+Processing by FournisseursController#index as */*
+Completed 401 Unauthorized in 0ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `flash' for #<ActionDispatch::Request:0x00007f5acc065648>):
+  
+devise (4.4.0) lib/devise/failure_app.rb:19:in `flash'
+devise (4.4.0) lib/devise/failure_app.rb:81:in `redirect'
+devise (4.4.0) lib/devise/failure_app.rb:43:in `respond'
+actionpack (5.1.5) lib/abstract_controller/base.rb:186:in `process_action'
+actionpack (5.1.5) lib/abstract_controller/base.rb:124:in `process'
+actionpack (5.1.5) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.5) lib/action_controller/metal.rb:242:in `block in action'
+devise (4.4.0) lib/devise/failure_app.rb:23:in `call'
+devise (4.4.0) lib/devise/delegator.rb:7:in `call'
+warden (1.2.7) lib/warden/manager.rb:143:in `call_failure_app'
+warden (1.2.7) lib/warden/manager.rb:129:in `process_unauthenticated'
+warden (1.2.7) lib/warden/manager.rb:44:in `call'
+rack (2.0.4) lib/rack/etag.rb:25:in `call'
+rack (2.0.4) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.4) lib/rack/head.rb:12:in `call'
+activerecord (5.1.5) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.5) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/fournisseurs" for 192.168.142.1 at 2018-04-21 11:43:05 -0400
+Processing by FournisseursController#index as */*
+Completed 401 Unauthorized in 2ms
+
+
+  
+NoMethodError (undefined method `flash' for #<ActionDispatch::Request:0x00007f5acc4e0880>):
+  
+devise (4.4.0) lib/devise/failure_app.rb:19:in `flash'
+devise (4.4.0) lib/devise/failure_app.rb:81:in `redirect'
+devise (4.4.0) lib/devise/failure_app.rb:43:in `respond'
+actionpack (5.1.5) lib/abstract_controller/base.rb:186:in `process_action'
+actionpack (5.1.5) lib/abstract_controller/base.rb:124:in `process'
+actionpack (5.1.5) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.5) lib/action_controller/metal.rb:242:in `block in action'
+devise (4.4.0) lib/devise/failure_app.rb:23:in `call'
+devise (4.4.0) lib/devise/delegator.rb:7:in `call'
+warden (1.2.7) lib/warden/manager.rb:143:in `call_failure_app'
+warden (1.2.7) lib/warden/manager.rb:129:in `process_unauthenticated'
+warden (1.2.7) lib/warden/manager.rb:44:in `call'
+rack (2.0.4) lib/rack/etag.rb:25:in `call'
+rack (2.0.4) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.4) lib/rack/head.rb:12:in `call'
+activerecord (5.1.5) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.5) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started POST "/auth_user" for 192.168.142.1 at 2018-04-21 11:44:30 -0400
+Processing by AuthenticationController#authenticate_user as */*
+  Parameters: {"email"=>"test@test.test", "password"=>"[FILTERED]", "authentication"=>{"email"=>"test@test.test", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "test@test.test"], ["LIMIT", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.09ms)
+Completed 200 OK in 132ms (Views: 2.3ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/produits" for 192.168.142.1 at 2018-04-21 11:44:46 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/produits"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/produit" for 192.168.142.1 at 2018-04-21 11:44:56 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/produit"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/fournisseurs/1/produits" for 192.168.142.1 at 2018-04-21 11:45:09 -0400
+Processing by ProduitsController#index as */*
+  Parameters: {"fournisseur_id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[33mUPDATE "users" SET "current_sign_in_at" = ?, "last_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["current_sign_in_at", "2018-04-21 15:45:09.969644"], ["last_sign_in_at", "2018-04-21 15:40:16.083358"], ["sign_in_count", 10], ["updated_at", "2018-04-21 15:45:09.970409"], ["id", 1]]
+  [1m[35m (62.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mFournisseur Load (0.1ms)[0m  [1m[34mSELECT  "fournisseurs".* FROM "fournisseurs" WHERE "fournisseurs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 401 Unauthorized in 139ms (ActiveRecord: 64.4ms)
+
+
+  
+NoMethodError (undefined method `authenticate_request!' for #<ProduitsController:0x00007f5acc6ea248>
+Did you mean?  authenticate_user!):
+  
+activesupport (5.1.5) lib/active_support/callbacks.rb:413:in `block in make_lambda'
+activesupport (5.1.5) lib/active_support/callbacks.rb:197:in `block (2 levels) in halting'
+actionpack (5.1.5) lib/abstract_controller/callbacks.rb:12:in `block (2 levels) in <module:Callbacks>'
+activesupport (5.1.5) lib/active_support/callbacks.rb:198:in `block in halting'
+activesupport (5.1.5) lib/active_support/callbacks.rb:507:in `block in invoke_before'
+activesupport (5.1.5) lib/active_support/callbacks.rb:507:in `each'
+activesupport (5.1.5) lib/active_support/callbacks.rb:507:in `invoke_before'
+activesupport (5.1.5) lib/active_support/callbacks.rb:130:in `run_callbacks'
+actionpack (5.1.5) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.5) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.5) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.5) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.5) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.5) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.5) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.5) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.5) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.5) lib/abstract_controller/base.rb:124:in `process'
+actionpack (5.1.5) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.5) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.5) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.5) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.5) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.5) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.5) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.5) lib/action_dispatch/routing/route_set.rb:844:in `call'
+warden (1.2.7) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.7) lib/warden/manager.rb:35:in `catch'
+warden (1.2.7) lib/warden/manager.rb:35:in `call'
+rack (2.0.4) lib/rack/etag.rb:25:in `call'
+rack (2.0.4) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.4) lib/rack/head.rb:12:in `call'
+activerecord (5.1.5) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.5) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/fournisseurs/1/produits" for 192.168.142.1 at 2018-04-21 11:45:23 -0400
+Processing by ProduitsController#index as */*
+  Parameters: {"fournisseur_id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[33mUPDATE "users" SET "current_sign_in_at" = ?, "last_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["current_sign_in_at", "2018-04-21 15:45:23.219532"], ["last_sign_in_at", "2018-04-21 15:45:09.969644"], ["sign_in_count", 11], ["updated_at", "2018-04-21 15:45:23.221523"], ["id", 1]]
+  [1m[35m (24.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mFournisseur Load (0.2ms)[0m  [1m[34mSELECT  "fournisseurs".* FROM "fournisseurs" WHERE "fournisseurs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mProduit Load (0.2ms)[0m  [1m[34mSELECT "produits".* FROM "produits" WHERE "produits"."fournisseur_id" = ?[0m  [["fournisseur_id", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::JsonApi (0.18ms)
+Completed 200 OK in 221ms (Views: 31.1ms | ActiveRecord: 28.8ms)
+
+
+Started POST "/fournisseurs/1/produits" for 192.168.142.1 at 2018-04-21 11:47:36 -0400
+Processing by ProduitsController#create as */*
+  Parameters: {"nom"=>"produittest", "description"=>"cochonnerie", "quantite"=>10, "prix"=>"20.75", "fournisseur_id"=>"1", "produit"=>{"nom"=>"produittest", "quantite"=>10, "description"=>"cochonnerie", "prix"=>"20.75"}}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.2ms)[0m  [1m[33mUPDATE "users" SET "current_sign_in_at" = ?, "last_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["current_sign_in_at", "2018-04-21 15:47:36.687325"], ["last_sign_in_at", "2018-04-21 15:45:23.219532"], ["sign_in_count", 12], ["updated_at", "2018-04-21 15:47:36.688380"], ["id", 1]]
+  [1m[35m (3.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mFournisseur Load (0.1ms)[0m  [1m[34mSELECT  "fournisseurs".* FROM "fournisseurs" WHERE "fournisseurs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameters: :fournisseur_id, :produit
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "produits" ("nom", "quantite", "description", "prix", "fournisseur_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["nom", "produittest"], ["quantite", 10], ["description", "cochonnerie"], ["prix", 20.75], ["fournisseur_id", 1], ["created_at", "2018-04-21 15:47:36.739866"], ["updated_at", "2018-04-21 15:47:36.739866"]]
+  [1m[35m (2.5ms)[0m  [1m[36mcommit transaction[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Fournisseur (0.34ms)
+Completed 201 Created in 74ms (Views: 14.0ms | ActiveRecord: 7.9ms)
+
+
+Started GET "/fournisseurs/1/produits" for 192.168.142.1 at 2018-04-21 11:47:41 -0400
+Processing by ProduitsController#index as */*
+  Parameters: {"fournisseur_id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "users" SET "current_sign_in_at" = ?, "last_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["current_sign_in_at", "2018-04-21 15:47:41.412616"], ["last_sign_in_at", "2018-04-21 15:47:36.687325"], ["sign_in_count", 13], ["updated_at", "2018-04-21 15:47:41.413273"], ["id", 1]]
+  [1m[35m (2.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mFournisseur Load (0.1ms)[0m  [1m[34mSELECT  "fournisseurs".* FROM "fournisseurs" WHERE "fournisseurs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mProduit Load (0.1ms)[0m  [1m[34mSELECT "produits".* FROM "produits" WHERE "produits"."fournisseur_id" = ?[0m  [["fournisseur_id", 1]]
+No serializer found for resource: #<Produit id: 1, nom: "produittest", quantite: 10, description: "cochonnerie", prix: 20.75, fournisseur_id: 1, created_at: "2018-04-21 15:47:36", updated_at: "2018-04-21 15:47:36">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Produit::ActiveRecord_Associations_CollectionProxy (0.3ms)
+Completed 200 OK in 11ms (Views: 2.5ms | ActiveRecord: 3.3ms)
+
+
+Started POST "/auth_user" for 192.168.142.1 at 2018-04-21 12:03:06 -0400
+Processing by AuthenticationController#authenticate_user as */*
+  Parameters: {"email"=>"test@test.com", "password"=>"[FILTERED]", "authentication"=>{"email"=>"test@test.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "test@test.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 5ms (ActiveRecord: 0.3ms)
+
+
+  
+NoMethodError (undefined method `valid_password?' for nil:NilClass):
+  
+app/controllers/authentication_controller.rb:11:in `authenticate_user'
+Started POST "/auth_user" for 192.168.142.1 at 2018-04-21 12:03:18 -0400
+Processing by AuthenticationController#authenticate_user as */*
+  Parameters: {"email"=>"test@test.test", "password"=>"[FILTERED]", "authentication"=>{"email"=>"test@test.test", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "test@test.test"], ["LIMIT", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.09ms)
+Completed 200 OK in 117ms (Views: 1.6ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/fournisseurs/" for 192.168.142.1 at 2018-04-21 12:04:35 -0400
+Processing by FournisseursController#create as */*
+  Parameters: {"nom"=>"Generals Electric", "adresse"=>"666 Hell Street", "tel"=>"777-6666", "fournisseur"=>{"nom"=>"Generals Electric", "adresse"=>"666 Hell Street", "tel"=>"777-6666"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (2.4ms)[0m  [1m[33mUPDATE "users" SET "current_sign_in_at" = ?, "last_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["current_sign_in_at", "2018-04-21 16:04:35.866869"], ["last_sign_in_at", "2018-04-21 15:47:41.412616"], ["sign_in_count", 14], ["updated_at", "2018-04-21 16:04:35.869431"], ["id", 1]]
+  [1m[35m (3.3ms)[0m  [1m[36mcommit transaction[0m
+Unpermitted parameter: :fournisseur
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "fournisseurs" ("nom", "adresse", "tel", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["nom", "Generals Electric"], ["adresse", "666 Hell Street"], ["tel", "777-6666"], ["created_at", "2018-04-21 16:04:35.879850"], ["updated_at", "2018-04-21 16:04:35.879850"]]
+  [1m[35m (8.3ms)[0m  [1m[36mcommit transaction[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Fournisseur (0.37ms)
+Completed 201 Created in 29ms (Views: 1.6ms | ActiveRecord: 14.8ms)
+
+
+Started POST "/fournisseurs/" for 192.168.142.1 at 2018-04-21 12:04:58 -0400
+Processing by FournisseursController#create as */*
+  Parameters: {"nom"=>"Generals Electric", "adresse"=>"666 Hell Street", "tel"=>"777-6666", "fournisseur"=>{"nom"=>"Generals Electric", "adresse"=>"666 Hell Street", "tel"=>"777-6666"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "users" SET "current_sign_in_at" = ?, "last_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["current_sign_in_at", "2018-04-21 16:04:58.043320"], ["last_sign_in_at", "2018-04-21 16:04:35.866869"], ["sign_in_count", 15], ["updated_at", "2018-04-21 16:04:58.045081"], ["id", 1]]
+  [1m[35m (3.8ms)[0m  [1m[36mcommit transaction[0m
+Unpermitted parameter: :fournisseur
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "fournisseurs" ("nom", "adresse", "tel", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["nom", "Generals Electric"], ["adresse", "666 Hell Street"], ["tel", "777-6666"], ["created_at", "2018-04-21 16:04:58.057220"], ["updated_at", "2018-04-21 16:04:58.057220"]]
+  [1m[35m (283.7ms)[0m  [1m[36mcommit transaction[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Fournisseur (0.42ms)
+Completed 201 Created in 305ms (Views: 1.3ms | ActiveRecord: 289.0ms)
+
+
+Started GET "/v1/fournisseurs" for 192.168.142.1 at 2018-04-21 12:05:12 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/v1/fournisseurs"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/fournisseurs" for 192.168.142.1 at 2018-04-21 12:05:17 -0400
+Processing by FournisseursController#index as */*
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.4ms)[0m  [1m[33mUPDATE "users" SET "current_sign_in_at" = ?, "last_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["current_sign_in_at", "2018-04-21 16:05:17.321255"], ["last_sign_in_at", "2018-04-21 16:04:58.043320"], ["sign_in_count", 16], ["updated_at", "2018-04-21 16:05:17.322681"], ["id", 1]]
+  [1m[35m (3.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mFournisseur Load (0.3ms)[0m  [1m[34mSELECT "fournisseurs".* FROM "fournisseurs"[0m
+No serializer found for resource: #<Fournisseur id: 1, nom: "testfourn", adresse: "ruefourn", tel: "4182625353", created_at: "2018-04-21 15:33:07", updated_at: "2018-04-21 15:33:07">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Fournisseur::ActiveRecord_Relation (1.15ms)
+Completed 200 OK in 18ms (Views: 3.5ms | ActiveRecord: 5.9ms)
+
+
+Started POST "/fournisseurs/1/produits" for 192.168.142.1 at 2018-04-21 12:05:59 -0400
+Processing by ProduitsController#create as */*
+  Parameters: {"nom"=>"godmichet", "quantite"=>69, "description"=>"Silencieux", "prix"=>122.12, "fournisseur_id"=>"1", "produit"=>{"nom"=>"godmichet", "quantite"=>69, "description"=>"Silencieux", "prix"=>122.12, "fournisseur_id"=>"1"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.7ms)[0m  [1m[33mUPDATE "users" SET "current_sign_in_at" = ?, "last_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["current_sign_in_at", "2018-04-21 16:05:59.895016"], ["last_sign_in_at", "2018-04-21 16:05:17.321255"], ["sign_in_count", 17], ["updated_at", "2018-04-21 16:05:59.896851"], ["id", 1]]
+  [1m[35m (13.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mFournisseur Load (0.2ms)[0m  [1m[34mSELECT  "fournisseurs".* FROM "fournisseurs" WHERE "fournisseurs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameters: :fournisseur_id, :produit
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "produits" ("nom", "quantite", "description", "prix", "fournisseur_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["nom", "godmichet"], ["quantite", 69], ["description", "Silencieux"], ["prix", 122.12], ["fournisseur_id", 1], ["created_at", "2018-04-21 16:05:59.922005"], ["updated_at", "2018-04-21 16:05:59.922005"]]
+  [1m[35m (5.9ms)[0m  [1m[36mcommit transaction[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Fournisseur (0.65ms)
+Completed 201 Created in 42ms (Views: 2.6ms | ActiveRecord: 23.1ms)
+
+
+Started POST "/fournisseurs/1/produits" for 192.168.142.1 at 2018-04-21 12:06:01 -0400
+Processing by ProduitsController#create as */*
+  Parameters: {"nom"=>"godmichet", "quantite"=>69, "description"=>"Silencieux", "prix"=>122.12, "fournisseur_id"=>"1", "produit"=>{"nom"=>"godmichet", "quantite"=>69, "description"=>"Silencieux", "prix"=>122.12, "fournisseur_id"=>"1"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.1ms)[0m  [1m[33mUPDATE "users" SET "current_sign_in_at" = ?, "last_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["current_sign_in_at", "2018-04-21 16:06:01.941307"], ["last_sign_in_at", "2018-04-21 16:05:59.895016"], ["sign_in_count", 18], ["updated_at", "2018-04-21 16:06:01.942765"], ["id", 1]]
+  [1m[35m (3.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mFournisseur Load (0.2ms)[0m  [1m[34mSELECT  "fournisseurs".* FROM "fournisseurs" WHERE "fournisseurs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameters: :fournisseur_id, :produit
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "produits" ("nom", "quantite", "description", "prix", "fournisseur_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["nom", "godmichet"], ["quantite", 69], ["description", "Silencieux"], ["prix", 122.12], ["fournisseur_id", 1], ["created_at", "2018-04-21 16:06:01.955850"], ["updated_at", "2018-04-21 16:06:01.955850"]]
+  [1m[35m (12.7ms)[0m  [1m[36mcommit transaction[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Fournisseur (0.32ms)
+Completed 201 Created in 34ms (Views: 0.8ms | ActiveRecord: 18.8ms)
+
+
+Started POST "/fournisseurs/1/produits" for 192.168.142.1 at 2018-04-21 12:06:03 -0400
+Processing by ProduitsController#create as */*
+  Parameters: {"nom"=>"godmichet", "quantite"=>69, "description"=>"Silencieux", "prix"=>122.12, "fournisseur_id"=>"1", "produit"=>{"nom"=>"godmichet", "quantite"=>69, "description"=>"Silencieux", "prix"=>122.12, "fournisseur_id"=>"1"}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.3ms)[0m  [1m[33mUPDATE "users" SET "current_sign_in_at" = ?, "last_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["current_sign_in_at", "2018-04-21 16:06:03.099190"], ["last_sign_in_at", "2018-04-21 16:06:01.941307"], ["sign_in_count", 19], ["updated_at", "2018-04-21 16:06:03.100716"], ["id", 1]]
+  [1m[35m (4.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mFournisseur Load (0.3ms)[0m  [1m[34mSELECT  "fournisseurs".* FROM "fournisseurs" WHERE "fournisseurs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameters: :fournisseur_id, :produit
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "produits" ("nom", "quantite", "description", "prix", "fournisseur_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["nom", "godmichet"], ["quantite", 69], ["description", "Silencieux"], ["prix", 122.12], ["fournisseur_id", 1], ["created_at", "2018-04-21 16:06:03.114395"], ["updated_at", "2018-04-21 16:06:03.114395"]]
+  [1m[35m (3.6ms)[0m  [1m[36mcommit transaction[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Fournisseur (0.41ms)
+Completed 201 Created in 27ms (Views: 1.2ms | ActiveRecord: 10.6ms)
+
+
+Started POST "/fournisseurs/1/produits" for 192.168.142.1 at 2018-04-21 12:06:09 -0400
+Processing by ProduitsController#create as */*
+  Parameters: {"nom"=>"godmichet", "quantite"=>69, "description"=>"Silencieux", "prix"=>122.12, "fournisseur_id"=>"1", "produit"=>{"nom"=>"godmichet", "quantite"=>69, "description"=>"Silencieux", "prix"=>122.12, "fournisseur_id"=>"1"}}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[33mUPDATE "users" SET "current_sign_in_at" = ?, "last_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["current_sign_in_at", "2018-04-21 16:06:09.384238"], ["last_sign_in_at", "2018-04-21 16:06:03.099190"], ["sign_in_count", 20], ["updated_at", "2018-04-21 16:06:09.384985"], ["id", 1]]
+  [1m[35m (2.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mFournisseur Load (0.2ms)[0m  [1m[34mSELECT  "fournisseurs".* FROM "fournisseurs" WHERE "fournisseurs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameters: :fournisseur_id, :produit
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "produits" ("nom", "quantite", "description", "prix", "fournisseur_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["nom", "godmichet"], ["quantite", 69], ["description", "Silencieux"], ["prix", 122.12], ["fournisseur_id", 1], ["created_at", "2018-04-21 16:06:09.396236"], ["updated_at", "2018-04-21 16:06:09.396236"]]
+  [1m[35m (4.6ms)[0m  [1m[36mcommit transaction[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Fournisseur (0.3ms)
+Completed 201 Created in 21ms (Views: 1.0ms | ActiveRecord: 8.7ms)
+
+
+Started GET "/fournisseurs/1/produits" for 192.168.142.1 at 2018-04-21 12:06:31 -0400
+Processing by ProduitsController#index as */*
+  Parameters: {"fournisseur_id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.1ms)[0m  [1m[33mUPDATE "users" SET "current_sign_in_at" = ?, "last_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["current_sign_in_at", "2018-04-21 16:06:31.325177"], ["last_sign_in_at", "2018-04-21 16:06:09.384238"], ["sign_in_count", 21], ["updated_at", "2018-04-21 16:06:31.325843"], ["id", 1]]
+  [1m[35m (3.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mFournisseur Load (0.1ms)[0m  [1m[34mSELECT  "fournisseurs".* FROM "fournisseurs" WHERE "fournisseurs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mProduit Load (0.1ms)[0m  [1m[34mSELECT "produits".* FROM "produits" WHERE "produits"."fournisseur_id" = ?[0m  [["fournisseur_id", 1]]
+No serializer found for resource: #<Produit id: 1, nom: "produittest", quantite: 10, description: "cochonnerie", prix: 20.75, fournisseur_id: 1, created_at: "2018-04-21 15:47:36", updated_at: "2018-04-21 15:47:36">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Produit::ActiveRecord_Associations_CollectionProxy (0.83ms)
+Completed 200 OK in 12ms (Views: 3.1ms | ActiveRecord: 4.9ms)
+
+
+Started GET "/fournisseurs" for 192.168.142.1 at 2018-04-21 12:06:42 -0400
+Processing by FournisseursController#index as */*
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[33mUPDATE "users" SET "current_sign_in_at" = ?, "last_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["current_sign_in_at", "2018-04-21 16:06:42.179984"], ["last_sign_in_at", "2018-04-21 16:06:31.325177"], ["sign_in_count", 22], ["updated_at", "2018-04-21 16:06:42.180748"], ["id", 1]]
+  [1m[35m (2.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mFournisseur Load (0.2ms)[0m  [1m[34mSELECT "fournisseurs".* FROM "fournisseurs"[0m
+No serializer found for resource: #<Fournisseur id: 1, nom: "testfourn", adresse: "ruefourn", tel: "4182625353", created_at: "2018-04-21 15:33:07", updated_at: "2018-04-21 15:33:07">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Fournisseur::ActiveRecord_Relation (0.56ms)
+Completed 200 OK in 10ms (Views: 1.9ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/fournisseurs/1/produits" for 192.168.142.1 at 2018-04-21 12:07:37 -0400
+Processing by ProduitsController#index as */*
+  Parameters: {"fournisseur_id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[33mUPDATE "users" SET "current_sign_in_at" = ?, "last_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["current_sign_in_at", "2018-04-21 16:07:37.325126"], ["last_sign_in_at", "2018-04-21 16:06:42.179984"], ["sign_in_count", 23], ["updated_at", "2018-04-21 16:07:37.325853"], ["id", 1]]
+  [1m[35m (3.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mFournisseur Load (0.1ms)[0m  [1m[34mSELECT  "fournisseurs".* FROM "fournisseurs" WHERE "fournisseurs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mProduit Load (0.1ms)[0m  [1m[34mSELECT "produits".* FROM "produits" WHERE "produits"."fournisseur_id" = ?[0m  [["fournisseur_id", 1]]
+No serializer found for resource: #<Produit id: 1, nom: "produittest", quantite: 10, description: "cochonnerie", prix: 20.75, fournisseur_id: 1, created_at: "2018-04-21 15:47:36", updated_at: "2018-04-21 15:47:36">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Produit::ActiveRecord_Associations_CollectionProxy (0.87ms)
+Completed 200 OK in 12ms (Views: 2.4ms | ActiveRecord: 4.5ms)
+
+
+Started GET "/fournisseurs/1/produits" for 192.168.142.1 at 2018-04-21 12:07:59 -0400
+Processing by ProduitsController#index as */*
+  Parameters: {"fournisseur_id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "users" SET "current_sign_in_at" = ?, "last_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["current_sign_in_at", "2018-04-21 16:07:59.790108"], ["last_sign_in_at", "2018-04-21 16:07:37.325126"], ["sign_in_count", 24], ["updated_at", "2018-04-21 16:07:59.790859"], ["id", 1]]
+  [1m[35m (3.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mFournisseur Load (0.1ms)[0m  [1m[34mSELECT  "fournisseurs".* FROM "fournisseurs" WHERE "fournisseurs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mProduit Load (0.1ms)[0m  [1m[34mSELECT "produits".* FROM "produits" WHERE "produits"."fournisseur_id" = ?[0m  [["fournisseur_id", 1]]
+No serializer found for resource: #<Produit id: 1, nom: "produittest", quantite: 10, description: "cochonnerie", prix: 20.75, fournisseur_id: 1, created_at: "2018-04-21 15:47:36", updated_at: "2018-04-21 15:47:36">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Produit::ActiveRecord_Associations_CollectionProxy (1.02ms)
+Completed 200 OK in 12ms (Views: 2.7ms | ActiveRecord: 3.9ms)
+
+
