@@ -6,7 +6,10 @@ class AuthenticationController < ApplicationController
 
     user = User.find_for_database_authentication(email: params[:email])
 
-    p(user)
+    if user.nil?
+      render json: {errors: ['User not found']}, status: :unauthorized
+      return
+    end
 
     if user.valid_password?(params[:password])
 
